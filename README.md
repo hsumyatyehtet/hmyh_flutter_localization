@@ -2,15 +2,17 @@
 
 A new Flutter project.
 
-## Getting Started
+## Starting point
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+### How to add localization in flutter
+First create new folder name is l10n under lib forder and then create new files.
+first file name is app_en.arb for English and app_my.arb for burmese.
+And then add l10n.yaml file under root folder.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+If above all file(l10n folder, app_en.arb file, app_my.arb file and l10n.yaml) set up done, 
+go to terminal and run command .\flutter pug get
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+If it is complete you can see generated file name is app_localizations.dart,
+app_localizations_en.dart, app_localizations_my.dart under l10n folder.
+
