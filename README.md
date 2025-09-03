@@ -4,8 +4,9 @@ A new Flutter project.
 
 ## Starting point
 
+Sorry for my bad English. This set up documentation is remind for me and I'm newbie in flutter.
 
-### How to add localization in flutter
+### How to add localization in flutter?
 First create new folder name is l10n under lib forder and then create new files.
 first file name is app_en.arb for English and app_my.arb for burmese.
 And then add l10n.yaml file under root folder.
